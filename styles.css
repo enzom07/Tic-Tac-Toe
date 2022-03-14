@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(3,150px);
+  }
+  
+  .item {
+    background-color: rgb(247, 184, 67);
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    font-size: 130px;
+  }
